@@ -1,0 +1,97 @@
+{
+  "uid" : "4cde9c4223e8c276",
+  "name" : "testCreatePetValidId",
+  "fullName" : "api.tests.validation.PostNewPetValidTest.testCreatePetValidId",
+  "historyId" : "eb4506e2f54821073e7275d68757eb46",
+  "time" : {
+    "start" : 1699707798001,
+    "stop" : 1699707798566,
+    "duration" : 565
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1699707788169,
+      "stop" : 1699707788169,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "generateData",
+    "time" : {
+      "start" : 1699707788169,
+      "stop" : 1699707788169,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.tests.validation.PostNewPetValidTest"
+  }, {
+    "name" : "testClass",
+    "value" : "api.tests.validation.PostNewPetValidTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCreatePetValidId"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Validation tests"
+  }, {
+    "name" : "suite",
+    "value" : "Validation test 2"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.tests.validation.PostNewPetValidTest"
+  }, {
+    "name" : "host",
+    "value" : "laptop-for-work"
+  }, {
+    "name" : "thread",
+    "value" : "7192@laptop-for-work.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "48"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4cde9c4223e8c276.json",
+  "parameterValues" : [ "48" ]
+}

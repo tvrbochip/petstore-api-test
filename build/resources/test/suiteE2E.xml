@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E2E Tests">
+    <test name="Delete pet by id">
+        <classes>
+            <class name="api.tests.e2e.DeletePetByIdTest"/>
+        </classes>
+    </test>
+
+    <test name="Get pet by id">
+        <classes>
+            <class name="api.tests.e2e.GetPetByIdTests"/>
+        </classes>
+    </test>
+
+    <test name="Get pet by status">
+        <classes>
+            <class name="api.tests.e2e.GetPetByStatusTest"/>
+        </classes>
+    </test>
+
+    <test name="Post new pet">
+        <classes>
+            <class name="api.tests.e2e.PostNewPetTest"/>
+        </classes>
+    </test>
+
+    <test name="Put new pet info">
+        <classes>
+            <class name="api.tests.e2e.PutPetInfoTest"/>
+        </classes>
+    </test>
+</suite>

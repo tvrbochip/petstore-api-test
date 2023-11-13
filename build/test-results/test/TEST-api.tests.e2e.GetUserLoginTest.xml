@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="api.tests.e2e.GetUserLoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-13T14:42:51" hostname="LAPTOP-FOR-WORK" time="0.57">
+  <properties/>
+  <testcase name="testGetUserLogin" classname="api.tests.e2e.GetUserLoginTest" time="0.57"/>
+  <system-out><![CDATA[17:42:51.491 [Test worker] INFO api.tests.e2e.GetUserLoginTest -- 
+
+Initializing GetPetByIdTests class
+17:42:51.492 [Test worker] INFO api.tests.e2e.GetUserLoginTest -- 
+
+Starting the test: testGetUserLogin
+17:42:52.060 [Test worker] INFO api.tests.e2e.GetUserLoginTest -- 
+
+Received response with status code: 200
+17:42:52.060 [Test worker] INFO api.tests.e2e.GetUserLoginTest -- 
+
+Expecting a status code between 200 and 300
+17:42:52.061 [Test worker] INFO api.tests.e2e.GetUserLoginTest -- 
+
+Get user login with login: userLoginTest and password: userPasswordTest
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,47 @@
+plugins {
+    id 'java'
+    id'io.qameta.allure' version '2.9.6'
+}
+
+group = 'com.petstore'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Библиотека для использования TestNG - тестового фреймворка для Java
+    testImplementation group: 'org.testng', name: 'testng', version: '7.0.0'
+
+    // Библиотека для упрощения взаимодействия с REST API в тестах
+    testImplementation 'io.rest-assured:rest-assured:5.3.0'
+
+    // Библиотека для работы с форматом JSON в Java
+    testImplementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.15.1'
+
+    // Библиотека для реализации протоколирования (логирования) в Java
+    testImplementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.9'
+
+    // Реализация протоколирования (логирования) для SLF4J
+    testImplementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.4.11'
+
+    // Библиотека для работы с форматом JSON в Java
+    testImplementation group: 'org.json', name: 'json', version: '20231013'
+
+    // Библиотека для аспектно-ориентированного программирования (АОП)
+    testImplementation 'org.aspectj:aspectjweaver:1.9.7'
+
+    // Библиотека Allure для создания красивых отчетов по результатам тестирования
+    testImplementation 'io.qameta.allure:allure-java-commons:2.20.0'
+    testImplementation 'io.qameta.allure:allure-testng:2.17.3'
+    testImplementation 'io.qameta.allure:allure-rest-assured:2.20.1'
+    testImplementation 'io.qameta.allure:allure-model:2.20.1'
+}
+
+
+test {
+    useTestNG(){
+        listeners << 'io.qameta.allure.testng.AllureTestNg'
+    }
+}

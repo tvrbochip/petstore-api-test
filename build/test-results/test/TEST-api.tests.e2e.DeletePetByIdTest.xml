@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="api.tests.e2e.DeletePetByIdTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-11-13T14:42:26" hostname="LAPTOP-FOR-WORK" time="7.196">
+  <properties/>
+  <testcase name="testDeleteExistingObject" classname="api.tests.e2e.DeletePetByIdTest" time="4.212"/>
+  <testcase name="testDeleteNonExistingObject" classname="api.tests.e2e.DeletePetByIdTest" time="2.92"/>
+  <system-out><![CDATA[17:42:26.171 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Initializing GetPetByIdTests class
+17:42:26.251 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Starting the test: testDeleteExistingObject
+17:42:26.251 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Creating a pet with ID: 31
+17:42:28.687 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Received response with status code: 200
+17:42:28.687 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Expecting a status code between 200 and 300
+17:42:28.692 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Added a pet with ID: 31
+17:42:29.272 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Received response with status code: 200
+17:42:29.273 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Expecting a status code between 200 and 300
+17:42:29.273 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Get a pet with ID: 31
+17:42:29.273 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Checking response body for ID, name, and status
+17:42:29.279 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Checking the pet's name with ID: 31
+17:42:29.850 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Received response with status code: 200
+17:42:29.850 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Expecting a status code between 200 and 300
+17:42:29.850 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Deleting the pet with ID: 31
+17:42:30.414 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Received response with status code: 404
+17:42:30.414 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Expecting a status code between 400 and 500
+17:42:30.414 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Get a deleted pet with ID: 31
+17:42:30.481 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Starting the test: testDeleteNonExistingObject
+17:42:30.481 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Creating a pet with ID: 31
+17:42:31.072 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Received response with status code: 200
+17:42:31.072 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Expecting a status code between 200 and 300
+17:42:31.072 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Added a pet with ID: 31
+17:42:31.644 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Received response with status code: 200
+17:42:31.644 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Expecting a status code between 200 and 300
+17:42:31.645 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Get a pet with ID: 31
+17:42:31.645 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Checking response body for ID, name, and status
+17:42:31.645 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Checking the pet's name with ID: 31
+17:42:32.233 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Received response with status code: 200
+17:42:32.233 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Expecting a status code between 200 and 300
+17:42:32.233 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Deleting the pet with ID: 31
+17:42:32.818 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Received response with status code: 404
+17:42:32.818 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Expecting a status code between 400 and 500
+17:42:32.819 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Get a deleted pet with ID: 31
+17:42:33.398 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Received response with status code: 404
+17:42:33.398 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Expecting a status code between 400 and 500
+17:42:33.398 [Test worker] INFO api.tests.e2e.DeletePetByIdTest -- 
+
+Deleting the pet with ID: 31
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

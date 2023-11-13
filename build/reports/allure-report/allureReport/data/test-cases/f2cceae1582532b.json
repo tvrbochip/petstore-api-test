@@ -1,0 +1,81 @@
+{
+  "uid" : "f2cceae1582532b",
+  "name" : "testGetValidID",
+  "fullName" : "api.tests.e2e.GetPetByStatusTest.testGetValidID",
+  "historyId" : "ff4de3acb034db7bb9113a4db2f2939f",
+  "time" : {
+    "start" : 1699707774271,
+    "stop" : 1699707774845,
+    "duration" : 574
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1699707773453,
+      "stop" : 1699707773453,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.tests.e2e.GetPetByStatusTest"
+  }, {
+    "name" : "testClass",
+    "value" : "api.tests.e2e.GetPetByStatusTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGetValidID"
+  }, {
+    "name" : "parentSuite",
+    "value" : "E2E Tests"
+  }, {
+    "name" : "suite",
+    "value" : "Get pet by status"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.tests.e2e.GetPetByStatusTest"
+  }, {
+    "name" : "host",
+    "value" : "laptop-for-work"
+  }, {
+    "name" : "thread",
+    "value" : "7192@laptop-for-work.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "pending"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f2cceae1582532b.json",
+  "parameterValues" : [ "pending" ]
+}

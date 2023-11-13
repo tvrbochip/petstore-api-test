@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="api.tests.e2e.GetPetByStatusTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-11-13T14:42:43" hostname="LAPTOP-FOR-WORK" time="2.119">
+  <properties/>
+  <testcase name="testGetValidStatus[0](available)" classname="api.tests.e2e.GetPetByStatusTest" time="0.836"/>
+  <testcase name="testGetValidStatus[1](pending)" classname="api.tests.e2e.GetPetByStatusTest" time="0.697"/>
+  <testcase name="testGetValidStatus[2](sold)" classname="api.tests.e2e.GetPetByStatusTest" time="0.581"/>
+  <system-out><![CDATA[17:42:43.827 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- Initializing GetPetByStatusTest class
+17:42:43.829 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- Starting the test for status: available
+17:42:44.534 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- 
+
+Received response with status code: 200
+17:42:44.534 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- 
+
+Expecting a status code between 200 and 300
+17:42:44.535 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- 
+
+Get a pet with status: available
+17:42:44.663 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- 
+
+Checking status for objects in the response
+17:42:44.666 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- Starting the test for status: pending
+17:42:45.361 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- 
+
+Received response with status code: 200
+17:42:45.361 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- 
+
+Expecting a status code between 200 and 300
+17:42:45.361 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- 
+
+Get a pet with status: pending
+17:42:45.362 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- 
+
+Checking status for objects in the response
+17:42:45.366 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- Starting the test for status: sold
+17:42:45.946 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- 
+
+Received response with status code: 200
+17:42:45.946 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- 
+
+Expecting a status code between 200 and 300
+17:42:45.946 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- 
+
+Get a pet with status: sold
+17:42:45.946 [Test worker] INFO api.tests.e2e.GetPetByStatusTest -- 
+
+Checking status for objects in the response
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,78 @@
+{
+  "uid" : "ab786ce7eb12651b",
+  "name" : "testDeleteExistingObject",
+  "fullName" : "api.tests.e2e.DeletePetByIdTest.testDeleteExistingObject",
+  "historyId" : "6935bee926067ae569618791657b8054",
+  "time" : {
+    "start" : 1699707767265,
+    "stop" : 1699707769404,
+    "duration" : 2139
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1699707767226,
+      "stop" : 1699707767231,
+      "duration" : 5
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.tests.e2e.DeletePetByIdTest"
+  }, {
+    "name" : "testClass",
+    "value" : "api.tests.e2e.DeletePetByIdTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDeleteExistingObject"
+  }, {
+    "name" : "parentSuite",
+    "value" : "E2E Tests"
+  }, {
+    "name" : "suite",
+    "value" : "Delete pet by id"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.tests.e2e.DeletePetByIdTest"
+  }, {
+    "name" : "host",
+    "value" : "laptop-for-work"
+  }, {
+    "name" : "thread",
+    "value" : "7192@laptop-for-work.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab786ce7eb12651b.json",
+  "parameterValues" : [ ]
+}

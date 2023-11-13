@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="api.tests.validation.GetPetByIdValidTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-11-13T14:42:36" hostname="LAPTOP-FOR-WORK" time="7.542">
+  <properties/>
+  <testcase name="testGetInvalidID[0]( )" classname="api.tests.validation.GetPetByIdValidTests" time="0.583"/>
+  <testcase name="testGetInvalidID[1](phone123)" classname="api.tests.validation.GetPetByIdValidTests" time="0.599"/>
+  <testcase name="testGetInvalidID[2](!%:*()?123)" classname="api.tests.validation.GetPetByIdValidTests" time="0.596"/>
+  <testcase name="testGetInvalidID[3](123 456)" classname="api.tests.validation.GetPetByIdValidTests" time="0.623"/>
+  <testcase name="testGetInvalidID[4](-123)" classname="api.tests.validation.GetPetByIdValidTests" time="0.561"/>
+  <testcase name="testGetInvalidID[5](12.3)" classname="api.tests.validation.GetPetByIdValidTests" time="0.58"/>
+  <testcase name="testGetInvalidID[6](92233720368547758089)" classname="api.tests.validation.GetPetByIdValidTests" time="0.571"/>
+  <testcase name="testGetValidID[0](47)" classname="api.tests.validation.GetPetByIdValidTests" time="1.127"/>
+  <testcase name="testGetValidID[1](1)" classname="api.tests.validation.GetPetByIdValidTests" time="1.138"/>
+  <testcase name="testGetValidID[2](9223372036854775807)" classname="api.tests.validation.GetPetByIdValidTests" time="1.15"/>
+  <system-out><![CDATA[17:42:36.280 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Initializing GetPetByIdValidTests class
+17:42:36.865 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Received response with status code: 405
+17:42:36.866 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Requested pet data for ID:  
+17:42:37.467 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Received response with status code: 404
+17:42:37.467 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Requested pet data for ID: phone123
+17:42:38.065 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Received response with status code: 404
+17:42:38.065 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Requested pet data for ID: !%:*()?123
+17:42:38.691 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Received response with status code: 404
+17:42:38.691 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Requested pet data for ID: 123 456
+17:42:39.253 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Received response with status code: 404
+17:42:39.253 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Requested pet data for ID: -123
+17:42:39.834 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Received response with status code: 404
+17:42:39.834 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Requested pet data for ID: 12.3
+17:42:40.405 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Received response with status code: 404
+17:42:40.406 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Requested pet data for ID: 92233720368547758089
+17:42:40.409 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Creating a pet with ID: 47
+17:42:40.985 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Received response with status code: 200
+17:42:40.985 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Added a pet with ID: 47
+17:42:41.535 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Received response with status code: 200
+17:42:41.535 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Requested pet data for ID: 47
+17:42:41.538 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Creating a pet with ID: 1
+17:42:42.107 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Received response with status code: 200
+17:42:42.108 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Added a pet with ID: 1
+17:42:42.674 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Received response with status code: 200
+17:42:42.674 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Requested pet data for ID: 1
+17:42:42.677 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Creating a pet with ID: 9223372036854775807
+17:42:43.244 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Received response with status code: 200
+17:42:43.244 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Added a pet with ID: 9223372036854775807
+17:42:43.825 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Received response with status code: 200
+17:42:43.825 [Test worker] INFO api.tests.validation.GetPetByIdValidTests -- 
+
+Requested pet data for ID: 9223372036854775807
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,81 @@
+{
+  "uid" : "41916547e55289be",
+  "name" : "testGetInvalidID",
+  "fullName" : "api.tests.validation.GetPetByIdValidTests.testGetInvalidID",
+  "historyId" : "62a35e77b1281258758febfd3e17b1f3",
+  "time" : {
+    "start" : 1699707782984,
+    "stop" : 1699707783572,
+    "duration" : 588
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1699707780646,
+      "stop" : 1699707780646,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.tests.validation.GetPetByIdValidTests"
+  }, {
+    "name" : "testClass",
+    "value" : "api.tests.validation.GetPetByIdValidTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGetInvalidID"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Validation tests"
+  }, {
+    "name" : "suite",
+    "value" : "Validation test 1"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.tests.validation.GetPetByIdValidTests"
+  }, {
+    "name" : "host",
+    "value" : "laptop-for-work"
+  }, {
+    "name" : "thread",
+    "value" : "7192@laptop-for-work.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "-123"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41916547e55289be.json",
+  "parameterValues" : [ "-123" ]
+}

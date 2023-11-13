@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="api.tests.e2e.PutPetInfoTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2023-11-13T14:43:19" hostname="LAPTOP-FOR-WORK" time="5.159">
+  <properties/>
+  <testcase name="testUpdateExistingPetInfo" classname="api.tests.e2e.PutPetInfoTest" time="2.282"/>
+  <testcase name="testUpdateNonExistingPetInfo" classname="api.tests.e2e.PutPetInfoTest" time="2.876">
+    <failure message="java.lang.AssertionError: &#10;Expected a status code between 400 and 500, but got 200&#10; did not expect to find [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected a status code between 400 and 500, but got 200
+ did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at api.tests.e2e.PutPetInfoTest.assertStatusCode(PutPetInfoTest.java:150)
+	at api.tests.e2e.PutPetInfoTest.testUpdateNonExistingPetInfo(PutPetInfoTest.java:128)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:145)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:92)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[17:43:19.392 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Initializing PutPetInfoTest class
+17:43:19.393 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Starting the test: testUpdateExistingPetInfo
+17:43:19.393 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Creating a pet with ID: 64
+17:43:19.965 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Received response with status code: 200
+17:43:19.965 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Expecting a status code between 200 and 300
+17:43:19.965 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Added a pet with ID: 64
+17:43:20.547 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Received response with status code: 200
+17:43:20.547 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Expecting a status code between 200 and 300
+17:43:20.547 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Get a pet with ID: 64
+17:43:20.547 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Checking response body for ID, name, and status
+17:43:20.547 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Checking the pet's name with ID: 64
+17:43:20.547 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Creating a new pet with ID: 64
+17:43:21.127 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Received response with status code: 200
+17:43:21.127 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Expecting a status code between 200 and 300
+17:43:21.127 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Updated pet with ID: 64
+17:43:21.674 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Received response with status code: 200
+17:43:21.674 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Expecting a status code between 200 and 300
+17:43:21.674 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Get a pet with ID: 64
+17:43:21.674 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Checking response body for ID, name, and status
+17:43:21.674 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Checking the pet's name with ID: 64
+{"id":64,"name":"testPetNew","photoUrls":[],"tags":[],"status":"pending"}
+17:43:21.677 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Starting the test: testUpdateNonExistingPetInfo
+17:43:21.677 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Creating a pet with ID: 64
+17:43:22.255 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Received response with status code: 200
+17:43:22.255 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Expecting a status code between 200 and 300
+17:43:22.255 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Added a pet with ID: 64
+17:43:22.834 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Received response with status code: 200
+17:43:22.834 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Expecting a status code between 200 and 300
+17:43:22.834 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Get a pet with ID: 64
+17:43:22.834 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Checking response body for ID, name, and status
+17:43:22.835 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Checking the pet's name with ID: 64
+17:43:23.399 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Received response with status code: 200
+17:43:23.401 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Expecting a status code between 200 and 300
+17:43:23.401 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Deleting the pet with ID: 64
+17:43:23.964 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Received response with status code: 404
+17:43:23.964 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Expecting a status code between 400 and 500
+17:43:23.964 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Get a deleted pet with ID: 64
+17:43:23.964 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Creating a new pet with ID: 64
+17:43:24.551 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Received response with status code: 200
+17:43:24.551 [Test worker] INFO api.tests.e2e.PutPetInfoTest -- 
+
+Expecting a status code between 400 and 500
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Validation tests">
+    <test name="Get pet by id - id validation">
+        <classes>
+            <class name="api.tests.validation.GetPetByIdValidTests"/>
+        </classes>
+    </test>
+
+    <test name="Get pet by status - status validation">
+        <classes>
+            <class name="api.tests.validation.GetPetByStatusValidTest"/>
+        </classes>
+    </test>
+
+    <test name="Create pet - id and name validation">
+        <classes>
+            <class name="api.tests.validation.PostNewPetValidTest"/>
+        </classes>
+    </test>
+</suite>

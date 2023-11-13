@@ -1,0 +1,97 @@
+{
+  "uid" : "dbbf9577ac441517",
+  "name" : "testCreatePetInvalidId",
+  "fullName" : "api.tests.validation.PostNewPetValidTest.testCreatePetInvalidId",
+  "historyId" : "1305c2e156547ada1d37e06ae8375986",
+  "time" : {
+    "start" : 1699707790482,
+    "stop" : 1699707791055,
+    "duration" : 573
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1699707788169,
+      "stop" : 1699707788169,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "generateData",
+    "time" : {
+      "start" : 1699707788169,
+      "stop" : 1699707788169,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "api.tests.validation.PostNewPetValidTest"
+  }, {
+    "name" : "testClass",
+    "value" : "api.tests.validation.PostNewPetValidTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCreatePetInvalidId"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Validation tests"
+  }, {
+    "name" : "suite",
+    "value" : "Validation test 2"
+  }, {
+    "name" : "subSuite",
+    "value" : "api.tests.validation.PostNewPetValidTest"
+  }, {
+    "name" : "host",
+    "value" : "laptop-for-work"
+  }, {
+    "name" : "thread",
+    "value" : "7192@laptop-for-work.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "!%:*()?123"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dbbf9577ac441517.json",
+  "parameterValues" : [ "!%:*()?123" ]
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="api.tests.e2e.PostNewPetTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-13T14:43:05" hostname="LAPTOP-FOR-WORK" time="0.558">
+  <properties/>
+  <testcase name="testCreatePetValid" classname="api.tests.e2e.PostNewPetTest" time="0.558"/>
+  <system-out><![CDATA[17:43:05.934 [Test worker] INFO api.tests.e2e.PostNewPetTest -- 
+
+Initializing PostNewPetTest class
+17:43:05.935 [Test worker] INFO api.tests.e2e.PostNewPetTest -- 
+
+Starting the test: testCreatePetValid
+17:43:05.935 [Test worker] INFO api.tests.e2e.PostNewPetTest -- 
+
+Creating a pet with ID: 82, name: testPetNew, and status: pending
+17:43:06.491 [Test worker] INFO api.tests.e2e.PostNewPetTest -- 
+
+Received response with status code: 200
+17:43:06.492 [Test worker] INFO api.tests.e2e.PostNewPetTest -- 
+
+Expecting a status code between 200 and 300
+17:43:06.492 [Test worker] INFO api.tests.e2e.PostNewPetTest -- 
+
+Added a pet with ID: 82
+17:43:06.492 [Test worker] INFO api.tests.e2e.PostNewPetTest -- 
+
+Checking response body for ID, name, and status
+17:43:06.492 [Test worker] INFO api.tests.e2e.PostNewPetTest -- 
+
+Checking the pet's name with ID: 82
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

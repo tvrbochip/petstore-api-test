@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="api.tests.e2e.GetPetByIdTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-11-13T14:42:33" hostname="LAPTOP-FOR-WORK" time="2.876">
+  <properties/>
+  <testcase name="testGetExistingPet" classname="api.tests.e2e.GetPetByIdTests" time="1.153"/>
+  <testcase name="testGetNonExistingPet" classname="api.tests.e2e.GetPetByIdTests" time="1.721"/>
+  <system-out><![CDATA[17:42:33.402 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Initializing GetPetByIdTests class
+17:42:33.404 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Starting the test: testGetExistingObject
+17:42:33.404 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Creating a pet with ID: 26
+17:42:33.974 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Received response with status code: 200
+17:42:33.974 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Expecting a status code between 200 and 300
+17:42:33.974 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Added a pet with ID: 26
+17:42:34.554 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Received response with status code: 200
+17:42:34.554 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Expecting a status code between 200 and 300
+17:42:34.555 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Requested pet data for ID: 26
+17:42:34.558 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Starting the test: testGetNonExistingObject
+17:42:34.558 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Creating a pet with ID: 26
+17:42:35.134 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Received response with status code: 200
+17:42:35.134 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Expecting a status code between 200 and 300
+17:42:35.134 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Added a pet with ID: 26
+17:42:35.716 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Received response with status code: 200
+17:42:35.716 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Expecting a status code between 200 and 300
+17:42:35.716 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Deleted pet with ID: 26
+17:42:36.278 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Received response with status code: 404
+17:42:36.278 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Expecting a status code between 400 and 500
+17:42:36.278 [Test worker] INFO api.tests.e2e.GetPetByIdTests -- 
+
+Requested pet data for ID: 26
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

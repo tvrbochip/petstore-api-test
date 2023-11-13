@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG DataDrivers suite">
+    <suite-files>
+        <suite-file path="./suiteE2E.xml"/>
+        <suite-file path="./suiteValidations.xml"/>
+    </suite-files>
+</suite>

@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "cb638d087c4b40e97166f026b8866290",
+    "name" : "Validation tests",
+    "statistic" : {
+      "failed" : 16,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 32
+    }
+  }, {
+    "uid" : "bc06b618b9a1adaf3065023f82c188a0",
+    "name" : "E2E Tests",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 10
+    }
+  } ]
+}
